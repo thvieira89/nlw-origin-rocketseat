@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+head,
+body {
+  height: 100%;
+}
+body {
+  background-color: #121214;
+  display: grid;
+  place-items: center;
+  width: 1440px;
+  height: 820px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+h1 {
+  font-size: 1.5rem;
+  color: #c4c4cc;
+}
+a {
+  color: #c4c4cc;
+}
+.faixa {
+  position: absolute;
+  width: 64px;
+  height: 158px;
+  left: 688px;
+  top: 0px;
+  background-color: #fce043;
+  background-image: linear-gradient(
+    161.24deg,
+    #ff008e -15.25%,
+    #ffcd1e 111.89%
+  );
+  z-index: 3;
+}
+.quebra {
+  position: absolute;
+  width: 80px;
+  height: 8px;
+  left: 680px;
+  top: 156px;
+  background-color: #121214;
+  margin: 0;
+  border: none;
+  z-index: 2;
+}
+.badge {
+  position: absolute;
+  width: 358px;
+  height: 540px;
+  left: 541px;
+  top: 140px;
+  background-color: #202024;
+  text-align: center;
+  z-index: 1;
+}
+.texto {
+  position: absolute;
+  width: 262px;
+  height: 48px;
+  left: 589px;
+  top: 512px;
+  color: #e1e1e6;
+  z-index: 5;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+.insta {
+  color: #e1e1e6;
+  position: absolute;
+  width: 102px;
+  height: 26px;
+  left: 670px;
+  top: 454px;
+  z-index: 5;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.nome {
+  color: #c4c4c4;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  width: 203px;
+  height: 30px;
+  left: 619px;
+  top: 420px;
+  z-index: 6;
+}
