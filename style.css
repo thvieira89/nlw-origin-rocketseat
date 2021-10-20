@@ -27,6 +27,7 @@ h1 {
 }
 a {
   color: #c4c4cc;
+  text-decoration: none;
 }
 .avatar {
   margin: 11.5rem auto;
@@ -66,7 +67,7 @@ a {
 .insta {
   color: #e1e1e6;
   position: absolute;
-
+  text-decoration: none;
   width: 102px;
   height: 26px;
   top: 470px;
@@ -89,6 +90,7 @@ a {
 ul,
 il {
   display: flex;
+  gap: 0.5rem;
   width: 216px;
   list-style-type: none;
   justify-content: center;
